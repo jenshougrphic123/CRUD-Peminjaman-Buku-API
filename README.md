@@ -1,4 +1,4 @@
-<h1 align="center">📚 Aplikasi Perpustakaan Sederhana (CRUD + API)</h1>
+<h1 align="center"> Aplikasi Perpustakaan Sederhana (CRUD + API)</h1>
 
 <p align="center">
   Project Pengembangan Sistem Perpustakaan Sekolah Menggunakan API Sederhana  
@@ -6,7 +6,7 @@
 
 <hr/>
 
-<h2>📌 Pengantar</h2>
+<h2>Pengantar</h2>
 
 <p>
 Project ini merupakan pengembangan dari project sebelumnya yang dibuat di sekolah. Pada versi ini, saya menambahkan <b>API sederhana</b> untuk:
@@ -40,7 +40,7 @@ perpus_farrel/
 
 <hr/>
 
-<h2>🚀 Endpoint API</h2>
+<h2>Endpoint API</h2>
 
 <h3>1. GET Semua Buku</h3>
 <pre>GET /api.php?action=get_buku</pre>
@@ -70,7 +70,7 @@ perpus_farrel/
 
 <hr/>
 
-<h2>🧪 Pengujian API Menggunakan Postman</h2>
+<h2> Pengujian API Menggunakan Postman</h2>
 
 <p>Berikut screenshot hasil pengujian API:</p>
 
@@ -97,7 +97,7 @@ perpus_farrel/
 
 <hr/>
 
-<h2>🔧 Cara Menjalankan Project</h2>
+<h2>Cara Menjalankan Project</h2>
 
 <ol>
   <li>Aktifkan XAMPP (Apache & MySQL)</li>
@@ -121,7 +121,7 @@ perpus_farrel/
 
 <hr/>
 
-<h2>📝 Penjelasan Proses</h2>
+<h2>Penjelasan Proses</h2>
 
 <p>Saya melakukan beberapa langkah dalam pengembangan aplikasi ini:</p>
 
@@ -136,7 +136,7 @@ perpus_farrel/
 
 <hr/>
 
-<h2>🎉 Kesimpulan</h2>
+<h2> Kesimpulan</h2>
 
 <p>
 Project berhasil dikembangkan dengan menambahkan API CRUD, peminjaman, dan pengembalian buku.
