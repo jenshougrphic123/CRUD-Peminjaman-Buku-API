@@ -92,6 +92,9 @@ perpus_farrel/
 <h3>6. Pengembalian Buku</h3>
 <img src="perpus_farrel/screenshots/kembalikan_buku.png" width="500"/>
 
+<h3>7. GET Peminjaman</h3>
+<img src="perpus_farrel/screenshots/get_peminjaman.png" width="500"/>
+
 <hr/>
 
 <h2>🔧 Cara Menjalankan Project</h2>
