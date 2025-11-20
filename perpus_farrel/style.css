@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3f51b5;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+button {
+    background: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #303f9f;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background:#fff;
+    padding:1rem;
+    border-radius:10px;
+    width:300px;
+    margin: 10% auto;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer;
+    font-size: 1.2rem;
+}
+
+/* =======================
+   ANIMASI MASUK HALAMAN
+========================= */
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    animation: fadeSlideIn 0.6s ease-out;
+}
+
+/* =======================
+   ANIMASI UNTUK CARD / BOX
+========================= */
+.fade-card {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeCard 0.7s ease forwards;
+}
+
+@keyframes fadeCard {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Delay otomatis biar muncul satu per satu */
+.fade-delay-1 { animation-delay: 0.1s; }
+.fade-delay-2 { animation-delay: 0.2s; }
+.fade-delay-3 { animation-delay: 0.3s; }
+.fade-delay-4 { animation-delay: 0.4s; }
+.fade-delay-5 { animation-delay: 0.5s; }
+
+/* =======================
+   ANIMASI HOVER PROFESIONAL
+========================= */
+button {
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.card, .item-buku {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover, .item-buku:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* =======================
+   ANIMASI MUNCUL POPUP / FORM TAMBAH BUKU
+========================= */
+.popup {
+    animation: popupShow 0.4s ease-out;
+}
+
+@keyframes popupShow {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.back-btn {
+    margin: 20px 0;
+}
+
+.back-btn button {
+    background: #444;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-btn button:hover {
+    background: #222;
+    transform: translateX(-3px);
+}
+
+/* Input & select — warna teks dibuat jelas */
+.input-group input,
+.input-group select {
+    color: #ffffff; /* Pastikan teks terlihat */
+    pointer-events: auto; /* Pastikan bisa diklik */
+}
+
+/* Opsi di dropdown harus terlihat */
+.input-group select option {
+    color: #000; /* warna item dropdown (agar terlihat) */
+}
+
+.card, .form-card {
+    position: relative;
+    z-index: 10; /* pastikan di atas animasi background */
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
