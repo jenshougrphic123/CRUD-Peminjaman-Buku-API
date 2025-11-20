@@ -75,22 +75,22 @@ perpus_farrel/
 <p>Berikut screenshot hasil pengujian API:</p>
 
 <h3>1. GET Buku</h3>
-<img src="screenshots/get_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/get_buku.png" width="500"/>
 
 <h3>2. Tambah Buku</h3>
-<img src="screenshots/tambah_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/tambah_buku.png" width="500"/>
 
 <h3>3. Edit Buku</h3>
-<img src="screenshots/edit_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/edit_buku.png" width="500"/>
 
 <h3>4. Hapus Buku</h3>
-<img src="screenshots/hapus_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/hapus_buku.png" width="500"/>
 
 <h3>5. Peminjaman Buku</h3>
-<img src="screenshots/pinjam_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/pinjam_buku.png" width="500"/>
 
 <h3>6. Pengembalian Buku</h3>
-<img src="screenshots/kembalikan_buku.png" width="500"/>
+<img src="perpus_farrel/screenshots/kembalikan_buku.png" width="500"/>
 
 <hr/>
 
